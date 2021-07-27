@@ -1,0 +1,136 @@
+header{
+    background-color: cadetblue;
+    font-family: Helvetica;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-template-rows: 100%;
+    margin: 10px;
+    
+    
+}
+
+article{
+    background-color:rgba(0,0,03,.03);
+    font-family: Helvetica;
+    text-align: left;
+    padding: 15px;
+}
+
+aside{
+    background-color:#eaeaea;
+    text-align: center;
+
+}
+
+footer{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    display:block;
+    margin:10px auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  ul{
+    list-style: none;
+  }
+  #menu li>a{
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+  
+  }
+  #menu li>a:hover{
+    color: #000;
+    background-color: #eaeaea;
+  }
+  #menu>li{
+    float:left;
+    text-align:center;
+    
+  }
+  #menu>li>ul{
+    display: none;
+    position:absolute;
+  }
+  #menu>li:hover>ul {
+    display:block;
+  }
+
+  .nav{
+    font-family: Helvetica;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  .div1{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 100%;
+    margin: 10px;
+   
+  }
+
+  section,aside{
+      margin: 10px;
+  }
+
+  .listas{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 100%;
+  
+  
+  }
+
+  .listas>article{
+  
+    background-color:#eaeaea;
+    margin: 5px;
+  
+  }
+
+  #imgenlace{
+    width: 80%;
+  }
+
+  #imgsema{
+    width: 35%;
+  }
+
+ 
+  .autor{
+    display: grid;
+    grid-template-columns: 20% 30% 20% 30%;
+    grid-template-rows: 100%;
+    margin: 10px;
+    text-align: center;
+   
+  }
+
+  .caja>img{
+    width: 220px;
+    height: 220px;
+   
+    border-radius:110px;
+   
+  }
+.caja{
+  background-color: rgba(0,0,03,.03);
+  padding: 10px;
+} 
+.lado{
+  background-color: black;
+}
+

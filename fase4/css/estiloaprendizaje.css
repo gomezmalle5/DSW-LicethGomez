@@ -1,0 +1,10 @@
+header{
+    background-color: rgba(0,0,0,.03);;
+    font-family: Helvetica;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 85% 150%;
+    grid-template-rows: 100%;
+  
+    
+}
